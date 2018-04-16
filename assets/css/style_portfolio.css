@@ -1,0 +1,38 @@
+.port-content{
+    width: 100%;
+    /* border: 2px solid greenyellow; */
+}
+
+.port-box{
+    position: relative;
+    float: left;
+    /* size: 300px;
+    width: 300px; */
+    height: 200px;
+    padding: 30px;
+    background-color: #ffffff;
+    /* border: 2px solid red; */
+}
+
+.port-img{
+    width: 240px;
+    height: 190px;
+    /* border:2px solid blue; */
+}
+
+.port-label{
+    position: relative;
+    /* width: 240px; */
+    height: 40px; 
+    margin-top:-50px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+
+.port-words{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

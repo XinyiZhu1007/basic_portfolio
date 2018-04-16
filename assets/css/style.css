@@ -1,0 +1,101 @@
+body{
+    background-image: url("../images/regal.png");
+    background-repeat: repeat;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    /* position: fixed; */
+    width: 100%; 
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-bottom: 3px solid #dddddd;
+}
+
+.main{
+    width: 960px;
+    margin: 0 auto 0 auto;
+    /* height: auto; */
+    /* display: flex;
+    justify-content: center; */
+}
+
+.header{
+    font-family: 'Georgia', Times, Times New Roman, serif;   
+    font-size: 24pt; 
+}
+
+.content1{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16pt;
+    /* line-height: 28pt; */
+    /* text-align: right; */
+}
+
+.content2{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+
+.nav-title{
+    float: left;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 20px 20px;
+    line-height: 28pt;
+}
+
+.nav-tabs{
+    float: right;
+    line-height: 28pt;
+    margin-right: 25px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content{
+    box-sizing: border-box;
+    margin-top: 50px; 
+    padding: 30px;
+    border: 2px solid #dddddd;
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+.content-header{
+    width: 100%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24pt; 
+    color: #4aaaa5;
+    border-bottom: 3px solid #dddddd;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.part{
+    text-align: left;
+    float: left;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#index-img{
+    float: left;
+    height: 200px;
+    width: 200px;
+    padding-right: 50px;
+}
